@@ -1,0 +1,21 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "RESTful API with Node.js, Express, and PostgreSQL",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bodyparser-json-error": "^1.0.0",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.0.2",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.2",
+        "pg": "^8.0.0",
+        "postgresql": "0.0.1"
+    }
+}
